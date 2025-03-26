@@ -1,0 +1,11 @@
+{
+    "name":{
+        "first" : "Zixu",
+        "last" : "Zhao"
+    },
+    "fromWisconsin":false,
+    "numCredits":4,
+    "major":"Computer Science",
+    "interests":["eat","sleep"]
+
+}
