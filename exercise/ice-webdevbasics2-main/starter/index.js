@@ -5,7 +5,7 @@
 //  https://cs571api.cs.wisc.edu/rest/s25/ice/pasta
 //  https://cs571api.cs.wisc.edu/rest/s25/ice/pizza
 import { CS571_ID } from '../../../config.js';
-fetch("https://cs571.org/rest/s25/ice/pizza",
+fetch("https://cs571.org/rest/s25/ice/chili",
     {
         method: "GET",
         headers: {
@@ -14,5 +14,5 @@ fetch("https://cs571.org/rest/s25/ice/pizza",
     })
     .then(response => response.json())
     .then(data => {
-        console.log(data)
+        document.getElementById("Image").src = data.img.location
     })
