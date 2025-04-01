@@ -3,6 +3,6 @@ import { Button, Card } from "react-bootstrap";
 
 export default function Recipe(props) {
     return <div>
-        <p>I am a recipe!</p>
+        <p>I am  !</p>
     </div>
 }
