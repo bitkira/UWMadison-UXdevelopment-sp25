@@ -22,9 +22,20 @@ table, th, td {
 
 /* TODO: Add your primary and secondary styling below! */
 .primary-button {
-
+  background-color: #007bff; /* 一个鲜艳的蓝色 */
+  color: black;
+  border: 1px solid #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold; /* 使文字加粗 */
 }
 
 .secondary-button {
-  
+  background-color: #f8f9fa; /* 一个浅灰色 */
+  color: #495057;
+  border: 1px solid #ced4da;
+  padding: 8px 15px;
+  border-radius: 3px;
+  cursor: pointer;
 }
