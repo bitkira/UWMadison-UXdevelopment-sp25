@@ -65,7 +65,6 @@ function website(StuentData){
 		div.appendChild(numinterest)
 		div.appendChild(interests)
 		studentsContainer.appendChild(div);
-
 }
 document.getElementById("students").appendChild(studentsContainer)}
 
